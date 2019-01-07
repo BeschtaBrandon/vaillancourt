@@ -1,0 +1,43 @@
+{
+  "name": "Vaillancourt",
+  "description": "Relocation tool used to scan products and assign them a destination.",
+  "author": "Brandon Beschta brandon.beschta@myparadigm.com",
+  "private": true,
+  "scripts": {
+    "deploy": "now && now alias",
+    "start": "react-scripts start",
+    "now-start": "serve -s ./build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "prettier": "1.15.3",
+    "react-scripts": "2.1.1"
+  },
+  "dependencies": {
+    "connected-react-router": "4.5.0",
+    "immutable": "^4.0.0-rc.12",
+    "isomorphic-fetch": "^2.2.1",
+    "node-sass": "^4.11.0",
+    "quagga": "^0.12.1",
+    "react": "16.6.3",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "16.6.3",
+    "react-redux": "5.1.1",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "redux": "4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-thunk": "2.3.0",
+    "sanitize.css": "7.0.3",
+    "serve": "10.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

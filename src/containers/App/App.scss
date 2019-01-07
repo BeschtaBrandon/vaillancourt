@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  margin: 10px;
+}
+
+.list {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.item {
+  margin: 2px;
+  font-size: 12px;
+}
+
+html {
+  min-height: 0;
+  height: auto;
+}
+main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
